@@ -76,7 +76,7 @@ HTMLActuator.prototype.addTile = function (tile) {
 
     // Render the tiles that merged
     tile.mergedFrom.forEach(function (merged) {
-      self.addTile(merged);
+      // self.addTile(merged);
     });
   } else {
     classes.push("tile-new");
